@@ -9,5 +9,5 @@
 # Ignore system and temporary files
 .DS_Store
 Thumbs.db
-
+.project
 bin/
