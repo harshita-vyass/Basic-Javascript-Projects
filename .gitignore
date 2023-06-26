@@ -1,0 +1,13 @@
+.env
+
+# Ignore editor and IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore system and temporary files
+.DS_Store
+Thumbs.db
+
+bin/
