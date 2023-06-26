@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Marksheet</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div>  
+    <h1 id="heading">Marksheet</h1>
+    <hr />
+    <hr />
+    <br></br>
+    <div class="filter">
+      <div>
+        <label for="branch-select">Branch:</label>
+        <select id="branch-select">
+          <option value="">--Select--</option>
+          <option value="CS">Computer Science</option>
+          <option value="IT">Information Technology</option>
+          <option value="ME">Mechanical</option>
+        </select>
+      </div>
+      <div>
+        <label for="student-select">Student:</label>
+        <select id="student-select">
+          <option value="">--Select--</option>
+          <option value=11281>Jake Peralta</option>
+          <option value=22311>Rosa Diaz</option>
+          <option value=32001>Phill Dunphy</option>
+        </select>
+      </div>
+      <div>
+        <label for="semester-select">Semester:</label>
+        <select id="semester-select">
+          <option value="">--Select--</option>
+          <option value="I">Semester I</option>
+          <option value="II">Semester II</option>
+          <option value="III">Semester III</option>
+        </select>
+      </div>
+      <button id="find-button" onclick="findResult()">Find</button>
+    </div>
+    <br></br>
+    <hr />
+    <br></br>
+    <div id="reportCard">
+      <p id="error"></p>
+      <p><b>Roll No: </b><span id="rollNo"></span></p>
+      <p><b>Name: </b><span id="name"></span></p>
+      <p><b>Branch: </b><span id="branch"></span></p>
+      <p><b>Semester: </b><span id="semester"></span></p>
+      <table id="report"></table>
+
+      <p><b>Percentage: </b><span id="percentage"></span></p>
+      <p><b>Grade: </b><span id="grade"></span></p>
+      <p><b>Result: </b><span id="result"></span></p>
+      <hr />
+      <p><b>Back Log Subjects:</b> <span id="backlog"></span></p>
+      <p><b>Aggregate Percentage:</b> <span id="aggregate"></span></p>
+    </div>
+
+    <hr />
+    <hr />
+    <script src="constants.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

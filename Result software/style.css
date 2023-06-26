@@ -1,0 +1,65 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  body {
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+
+ #heading {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+ }
+
+ #find-button {
+  background-color: rgb(57, 114, 189);
+  color: white;
+ }
+
+ .filter {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+ }
+
+ label {
+  font-size: 18px;
+ }
+
+ select {
+  font-size: 25px;
+  margin-right: 50px;
+  width: 200px;
+  cursor: pointer;
+ }
+
+ button {
+  margin-left: 50px;
+  width:100px;
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+ }
+
+ #error {
+  background-color: red;
+  color: white;
+  width: 400px;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+ }
